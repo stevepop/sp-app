@@ -2,8 +2,8 @@ name: Deploy Application
 
 on:
   push:
-    branches: [ master ]
-
+    branches: 
+      - master
 jobs:
   create-deployment-artifacts:
     name: Create deployment artifacts
