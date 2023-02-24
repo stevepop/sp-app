@@ -13,8 +13,8 @@ jobs:
 
       - name: Compile CSS and Javascript
         run: |
-          npm install
-          npm run prod
+          yarn
+          yarn build
   
       - name: Configure PHP 8.1
         uses: shivammathur/setup-php@master
